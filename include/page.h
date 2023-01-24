@@ -20,7 +20,7 @@
 #include "flash.h"
 #include "device.h"
 
-// #define PAGE_FTL_USE_CACHE
+#define PAGE_FTL_USE_CACHE
 #define PAGE_FTL_CACHE_SIZE ((1 << 10))
 #define PAGE_FTL_GC_RATIO                                                      \
 	((double)10 /                                                          \
